@@ -1,0 +1,12 @@
+source https://www.nuget.org/api/v2
+framework: auto-detect
+storage: link
+
+nuget FSharp.Core
+nuget FsUnit
+nuget Microsoft.NET.Test.Sdk 15.7.2
+nuget nunit 3.10.1
+nuget NUnit3TestAdapter 3.10.0
+
+nuget sqlite-net-pcl
+nuget SQLitePCLRaw.bundle_green
