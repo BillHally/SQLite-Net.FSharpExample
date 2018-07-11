@@ -8,8 +8,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{E502F5
 		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SQLiteNet.FSharp", "SQLiteNet.FSharp\SQLiteNet.FSharp.fsproj", "{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}"
-EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "SQLiteNet.FSharp.Tests", "SQLiteNet.FSharp.Tests\SQLiteNet.FSharp.Tests.fsproj", "{59510B7F-7B67-4178-8411-D46B2EE19382}"
 EndProject
 Global
@@ -22,18 +20,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|x64.Build.0 = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Debug|x86.Build.0 = Debug|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|x64.ActiveCfg = Release|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|x64.Build.0 = Release|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|x86.ActiveCfg = Release|Any CPU
-		{2128E919-9DF7-4EE7-A24F-F286BCDF65EE}.Release|x86.Build.0 = Release|Any CPU
 		{59510B7F-7B67-4178-8411-D46B2EE19382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59510B7F-7B67-4178-8411-D46B2EE19382}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59510B7F-7B67-4178-8411-D46B2EE19382}.Debug|x64.ActiveCfg = Debug|Any CPU
